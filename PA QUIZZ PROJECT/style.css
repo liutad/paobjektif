@@ -1,0 +1,34 @@
+p{
+    font: 1em sans-serif;
+    color: whitesmoke;
+}
+
+h1{
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+body{
+    background-color: black;
+}
+
+div.section-left{
+        position: absolute;
+        text-align: left;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+        border: solid 2px white;
+        align-items: left;
+}
+
+div.section-right{
+    position: absolute;
+    left: 1000px;
+    margin:0 auto;
+    text-align: left;
+    align-items: right;
+    width: fit-content;
+    height: fit-content;
+    border: solid 2px white;
+}
